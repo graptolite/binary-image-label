@@ -20,3 +20,28 @@ To use this GUI:
 Images will be divided into the subdirectories `<folder>/Y` and `<folder>/N`.
 
 ![GUI window on initialization](./imgs/screenshot.png)
+
+# Example
+
+Example starting directory structure:
+
+```
+|- Toplevel
+   |- 0.png
+   |- 1.png
+   |- 2.png
+   |- 3.png
+   |- 4.png
+```
+
+After labelling:
+```
+|- Toplevel
+   |- Y
+      |- Y0.png
+      |- Y2.png
+      |- Y3.png
+   |- N
+      |- N1.png
+      |- N4.png
+```
