@@ -10,8 +10,6 @@ The GUI window has two columns. On the right is the path input with a button to 
 
 On the left are the "Image" and "Messages" displays, which show the active image (for labelling) and active status respectively.
 
-![GUI window on initialization](./imgs/screenshot.png)
-
 ## Usage
 
 1. Input the folder containing pngs.
@@ -21,3 +19,5 @@ On the left are the "Image" and "Messages" displays, which show the active image
 5. The next image will be loaded for labelling in the same way.
 
 Images will be divided into the subdirectories `<folder>/Y` and `<folder>/N`.
+
+![GUI window on initialization](./imgs/screenshot.png)
