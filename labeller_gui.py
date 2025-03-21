@@ -76,7 +76,6 @@ class GUI(Tk):
         fp = self.inp.get()
         self.fp = fp
         if fp and os.path.exists(fp):
-            print("a")
             self.files = [f for f in os.listdir(fp) if f.endswith(".png")]
             self.full_len = len(self.files)
             self.active_file = self.files[0]
